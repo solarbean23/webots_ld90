@@ -1,0 +1,21 @@
+[0.428s] Invoking command in '/home/solarbean23/Desktop/final/webots_ros2_ld90': PYTHONPATH=/home/solarbean23/Desktop/final/build/webots_ros2_ld90/prefix_override:/home/solarbean23/Desktop/final/install/webots_ros2_ld90/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/webots_ros2_ld90 build --build-base /home/solarbean23/Desktop/final/build/webots_ros2_ld90/build install --record /home/solarbean23/Desktop/final/build/webots_ros2_ld90/install.log --single-version-externally-managed install_data
+[0.567s] running egg_info
+[0.568s] writing ../build/webots_ros2_ld90/webots_ros2_ld90.egg-info/PKG-INFO
+[0.568s] writing dependency_links to ../build/webots_ros2_ld90/webots_ros2_ld90.egg-info/dependency_links.txt
+[0.568s] writing entry points to ../build/webots_ros2_ld90/webots_ros2_ld90.egg-info/entry_points.txt
+[0.568s] writing requirements to ../build/webots_ros2_ld90/webots_ros2_ld90.egg-info/requires.txt
+[0.568s] writing top-level names to ../build/webots_ros2_ld90/webots_ros2_ld90.egg-info/top_level.txt
+[0.569s] reading manifest file '../build/webots_ros2_ld90/webots_ros2_ld90.egg-info/SOURCES.txt'
+[0.570s] adding license file 'LICENSE'
+[0.570s] writing manifest file '../build/webots_ros2_ld90/webots_ros2_ld90.egg-info/SOURCES.txt'
+[0.571s] running build
+[0.571s] running build_py
+[0.571s] running install
+[0.571s] running install_lib
+[0.572s] running install_data
+[0.572s] running install_egg_info
+[0.573s] removing '/home/solarbean23/Desktop/final/install/webots_ros2_ld90/lib/python3.10/site-packages/webots_ros2_ld90-0.0.0-py3.10.egg-info' (and everything under it)
+[0.573s] Copying ../build/webots_ros2_ld90/webots_ros2_ld90.egg-info to /home/solarbean23/Desktop/final/install/webots_ros2_ld90/lib/python3.10/site-packages/webots_ros2_ld90-0.0.0-py3.10.egg-info
+[0.573s] running install_scripts
+[0.586s] writing list of installed files to '/home/solarbean23/Desktop/final/build/webots_ros2_ld90/install.log'
+[0.601s] Invoked command in '/home/solarbean23/Desktop/final/webots_ros2_ld90' returned '0': PYTHONPATH=/home/solarbean23/Desktop/final/build/webots_ros2_ld90/prefix_override:/home/solarbean23/Desktop/final/install/webots_ros2_ld90/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/webots_ros2_ld90 build --build-base /home/solarbean23/Desktop/final/build/webots_ros2_ld90/build install --record /home/solarbean23/Desktop/final/build/webots_ros2_ld90/install.log --single-version-externally-managed install_data

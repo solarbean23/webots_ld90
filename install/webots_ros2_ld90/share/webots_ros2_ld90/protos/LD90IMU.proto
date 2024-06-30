@@ -1,0 +1,34 @@
+#VRML_SIM R2023b utf8
+# license: Apache License 2.0
+# license url: http://www.apache.org/licenses/LICENSE-2.0
+# This is a proto file for an IMU sensor
+
+PROTO IMU [
+  field SFVec3f    translation  0 0 0.05  # IMU의 위치
+  field SFRotation rotation     0 0 1 0   # IMU의 방향
+  field SFString   name         "imu"     # IMU의 이름
+  field SFBool     enableAccelerometer TRUE  # 가속도계를 활성화/비활성화
+  field SFBool     enableGyroscope TRUE      # 자이로스코프를 활성화/비활성화
+  field SFFloat    updateRate  100.0        # 업데이트 주기(Hz 단위)
+]
+{
+  Solid {
+    translation IS translation
+    rotation IS rotation
+    children [
+      InertialUnit {
+        name IS name
+        enabled TRUE
+      }
+      Accelerometer {
+        name IS name
+        enabled IS enableAccelerometer
+      }
+      Gyro {
+        name IS name
+        enabled IS enableGyroscope
+      }
+    ]
+    name IS name
+  }
+}
